@@ -4,10 +4,10 @@ LoongArch64 cross-compile toolchain, supports both i686 Windows (MinGW-w64) and 
 
 ## Toolchains
 
-| Name                       | Version | Target                | Kernel | Binutils | GCC   | Libc(glibc) | Note                                                        |
-| -------------------------- | ------- | --------------------- | ------ | -------- | ----- | ----------- | ----------------------------------------------------------- |
-| GCC 8.3 with LSX / LASX    | rc1.5   | loongarch64-linux-gnu | 4.15.0 | 2.31     | 8.3.0 | 2.28        | Only support `lp64d` glibc ABI                              |
-| GCC 8.3 without LSX / LASX | rc1.1   | loongarch64-linux-gnu | 4.15.0 | 2.31     | 8.3.0 | 2.28        | Only support `lp64d` glibc ABI, no vector extension support |
+| Name                       | Version | Supported Host                                                                                                                                                                                                                                                                                                                             | Target                | Kernel | Binutils | GCC   | Libc(glibc) | Note                                                        |
+| -------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------ | -------- | ----- | ----------- | ----------------------------------------------------------- |
+| GCC 8.3 with LSX / LASX    | rc1.5   | [i686 Windows](https://github.com/loong64/loong64-abi1.0-toolchains/releases/download/20250722/loongson-gnu-toolchain-8.3-i686-mingw-loongarch64-linux-gnu-rc1.6.zip)/[x86_64 Linux](https://github.com/loong64/loong64-abi1.0-toolchains/releases/download/20250722/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6.tar.xz) | loongarch64-linux-gnu | 4.15.0 | 2.31     | 8.3.0 | 2.28        | Only support `lp64d` glibc ABI                              |
+| GCC 8.3 without LSX / LASX | rc1.1   | [x86_64 Linux](https://github.com/loong64/loong64-abi1.0-toolchains/releases/download/20250722/loongson-gnu-toolchain-8.3.novec-x86_64-loongarch64-linux-gnu-rc1.1.tar.xz)                                                                                                                                                                 | loongarch64-linux-gnu | 4.15.0 | 2.31     | 8.3.0 | 2.28        | Only support `lp64d` glibc ABI, no vector extension support |
 
 ## How to use
 
