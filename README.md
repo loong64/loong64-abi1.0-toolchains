@@ -4,7 +4,7 @@ LoongArch64 cross-compile toolchain, supports both i686 Windows (MinGW-w64) and 
 
 # New! 
 
-There are some newly compiled toolchains （1.e. using GCC 14) in [this repo](https://github.com/loong64/cross-tools/tree/canadian). 
+There are some newly compiled toolchains (i.e. using GCC 14) in [this repo](https://github.com/loong64/cross-tools/tree/canadian). 
 
 ## Toolchains
 
